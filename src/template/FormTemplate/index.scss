@@ -1,0 +1,74 @@
+.login-text {
+  text-align: right;
+  padding: 24px;
+  .login {
+    color: #009de6;
+    cursor: pointer;
+  }
+}
+
+.registration-page-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .title {
+    font-size: 28px;
+    padding: 12px 24px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+  }
+  .registrationForm-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+}
+.cong-text {
+  text-align: center;
+  padding: 12px;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin: 12px;
+  .login-btn-wrapper {
+    // margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    .login-button {
+      width: 223px;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid rgb(168, 166, 166);
+      border-radius: 4px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+      .login-button-text {
+        display: flex;
+        align-items: center;
+        height: 24px;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+.registration-btn-wrapper {
+  .login-btn-wrapper {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .register-button {
+    padding: 22px;
+  }
+}

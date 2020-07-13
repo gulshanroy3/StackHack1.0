@@ -1,0 +1,25 @@
+.banner-wrapper {
+  display: flex;
+  min-height: 100%;
+  background-image: linear-gradient(90deg, #0a395f 0%, #04104f 100%);
+  flex-direction: column;
+  justify-content: center;
+  .banner-wrapper-text {
+    text-align: center;
+    .title {
+      height: auto;
+      color: #ffffff;
+      font-family: Roboto;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 43px;
+    }
+  }
+  .banner-wrapper-img {
+    text-align: center;
+    .enrollment-counter-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

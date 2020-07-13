@@ -1,0 +1,116 @@
+table {
+  border-collapse: collapse;
+  margin-top: 24px;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  .table-heading {
+    // height: 32px;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    .td-name {
+      // width: 40%;
+      // padding-left: 56px;
+      padding: 12px;
+      font-size: 14px;
+      font-family: Roboto-Family;
+      color: #949494;
+      text-align: center;
+    }
+    .td-no-payment {
+      // width: 25%;
+      font-size: 14px;
+      font-family: Roboto-Family;
+      color: #949494;
+      text-align: center;
+    }
+    .td-description {
+      // width: 36%;
+      font-size: 14px;
+      font-family: Roboto-Family;
+      color: #949494;
+      text-align: center;
+    }
+    .td-features {
+      // width: 36%;
+      font-size: 14px;
+      padding: 12px;
+      font-family: Roboto-Family;
+      color: #949494;
+      text-align: center;
+    }
+  }
+  .payment-row {
+    height: 42px;
+    border-bottom: 1px solid #eaeaea;
+    &:hover {
+      background: #ebf8fd !important;
+    }
+
+    .payment-row-value {
+      //padding-left: 80px;
+      text-align: center;
+      letter-spacing: 0px;
+      color: #212121;
+      opacity: 1;
+      font-family: Roboto-Medium;
+      font-size: 14px;
+    }
+
+    .payment-features {
+      cursor: pointer;
+    }
+  }
+}
+
+.eventTask {
+  background-color: rgb(0, 157, 230);
+  border: 1px solid rgb(0, 157, 230);
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  display: block;
+  border-radius: 8px;
+  &:hover {
+    background-color: rgb(0, 157, 250);
+    border: 1px solid rgb(0, 157, 250);
+  }
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+  .title {
+    margin: auto 0;
+    font-size: 24px;
+    font-family: monospace;
+  }
+  .logout {
+    background-color: rgb(208, 57, 8);
+    border: 1px solid rgb(208, 57, 8);
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    display: block;
+    border-radius: 8px;
+    &:hover {
+      background-color: rgb(135, 39, 10);
+      border: 1px solid rgb(135, 39, 10);
+    }
+  }
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.no-user-found {
+  padding: 24px;
+  font-size: 24px;
+  text-align: center;
+}
